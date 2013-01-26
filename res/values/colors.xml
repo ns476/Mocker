@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="unmocked">#ffdf6926</color>
+<color name="mocked">#ff26df6f</color>
+<color name="flash">#ffffffff</color>
+</resources>

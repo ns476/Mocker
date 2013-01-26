@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+<ImageView android:id="@+id/Icon" android:layout_width="64dip" android:layout_height="64dip" android:scaleType="fitXY"></ImageView>
+<TextView android:text="@+id/TextView" 
+			android:id="@+id/Label" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:gravity="center_vertical"
+			android:paddingLeft="5dip"
+			style="?android:attr/textAppearanceLarge"></TextView>
+</LinearLayout>
+<TextView 
+	android:id="@+id/gp"
+	android:text="@string/MockedPermissions"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:padding="5dip"></TextView>
+  <ListView android:id="@android:id/list"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content" />
+</LinearLayout>

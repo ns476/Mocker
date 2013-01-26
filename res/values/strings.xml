@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SuperuserTest!</string>
+    <string name="app_name">Mocker</string>
+
+<string name="MockedPermissions">Mocked Permissions</string>
+<string name="MockedNotificationTitle">Mocked permission</string>
+<string name="MockedNotificationData" formatted="false">Prevented %s from using %s</string>
+<string name="NewAppNotificationTitle">Mock permissions for application</string>
+<string name="NewAppNotificationData">Press to configure mocking for %s</string>
+</resources>
